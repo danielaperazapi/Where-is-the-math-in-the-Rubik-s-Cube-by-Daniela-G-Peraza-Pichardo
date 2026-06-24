@@ -41,7 +41,13 @@ This resource is particularly helpful because it bridges the gap between practic
 
 -----------------------------------------------------------------------------------------
 
-INSERT HERE PRESENTING TO YOUR CLASSMATES
+PRESENTING TO YOUR CLASSMATES
+
+The following video presents the initial proposal for this project, _The Math Behind the 3×3 Rubik's Cube_. In this video, the main objectives of the project are introduced, as well as the mathematical concepts required to analyze the puzzle, and the motivation for studying the Rubik's Cube from a mathematical perspective. It also introduces fundamental concepts such as cycle notation, composition of permutations, and the commutator, which serves as one of the key mathematical tools used throughout this project.
+
+This video provides the foundation for the more detailed analysis presented in the **Hands-on** section of the repository. It is intended to help viewers understand the problem being investigated, the mathematical framework that will be used, and the questions that guide the development of the project, including how algorithms affect cube pieces and why certain cube configurations are impossible to obtain through legal moves.
+
+INSERT VIDEO HERE
 
 -----------------------------------------------------------------------------------------
 
