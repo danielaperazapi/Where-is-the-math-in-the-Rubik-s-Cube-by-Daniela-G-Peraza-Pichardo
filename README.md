@@ -40,3 +40,17 @@ Rather than presenting algorithms as sequences of moves to be memorized, the vid
 This resource is particularly helpful because it bridges the gap between practical cube solving and the mathematical structures that govern it. It provides an accessible introduction to the ideas that are developed more rigorously in the technical section of this repository, helping readers understand how abstract mathematical concepts can be applied to analyze and solve a real-world puzzle.
 
 -----------------------------------------------------------------------------------------
+
+INSERT HERE PRESENTING TO YOUR CLASSMATES
+
+-----------------------------------------------------------------------------------------
+
+TECHNICALITIES OF THE PROJECT
+
+-----------------------------------------------------------------------------------------
+
+CONCLUSIONS
+
+-----------------------------------------------------------------------------------------
+
+REFERENCES
