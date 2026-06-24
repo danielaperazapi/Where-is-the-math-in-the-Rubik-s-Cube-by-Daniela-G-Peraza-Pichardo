@@ -7,10 +7,36 @@ The objective of this project is to understand the Rubik's Cube through mathemat
 
 The motivation for this project comes from my personal interest in _speedcubing_, a hobby that consists of solving the Rubik’s Cube and its variants in the shortest possible time, which relies on pattern recognition and memorized algorithms. Hence, it is precisely the need of _algorithms_ in the last two steps of cube-solving which provokes the question of what the math behind these _algorithms_ looks like and most importantly why they work. In other words, the aim is, through the study of permutations and commutators, to show how group theory provides a framework for predicting and controlling the movement of cube pieces.
 
-Below is the link to a motivaional video that inspired and guided the development of this project. The video explores the mathematical ideas behind Rubik's Cube algorithms and explains how solving methods are connected to concepts such as permutations, commutators, and group theory.
+INSERT HERE PICTURE OF RUBIKS CUBE
 
-Rather than presenting algorithms as sequences of moves to be memorized, the video investigates why certain algorithms work and how they manipulate specific cube pieces while leaving others unchanged. It introduces the concept of commutators, which are fundamental tools in both advanced cube solving and abstract algebra, and discusses the challenges of understanding increasingly complex algorithms due to the enormous number of possible cube configurations.
+To better appreciate the mathematics behind the Rubik's Cube, it is useful to first understand how the puzzle is typically solved. Modern speedsolving methods, such as **CFOP (Cross, First Two Layers, Orientation of the Last Layer, and Permutation of the Last Layer)**, divide the solution process into several stages.
+
+INSERT HERE PICTURE OF CROSS
+
+The first step is the **cross**, where four edge pieces are positioned and oriented correctly relative to one another. This stage is usually solved intuitively, meaning that the solver analyzes the cube and determines the necessary moves without relying on memorized algorithms.
+
+INSERT HERE PICTURE OF F2L
+
+The second stage is known as **First Two Layers (F2L)**. Here, corner-edge pairs are inserted into their correct slots to simultaneously solve the first and second layers of the cube. While advanced solvers often learn specialized algorithms to perform F2L efficiently, the process can largely be understood through logical reasoning and visualization. A solver identifies a corner and its matching edge, pairs them together, and inserts them into the correct position. Because only a small number of pieces are involved at a time, many beginners are able to discover solutions on their own without extensive memorization.
+
+However, as the cube becomes more solved, the problem becomes more and more complex. Once the first two layers are completed, it is only the last layer which remains unsolved. This is where the transition from intuitive solving to algorithmic solving occurs.
+
+INSERT HERE PICTURE OF OLL
+
+The first last-layer step is called **Orientation of the Last Layer (OLL)**. The goal is to rotate all last-layer pieces so that the entire top face becomes a single color, usually yellow. It is important to mention that OLL does not necessarily place the pieces in their correct positions; it only ensures that they are **facing** the correct direction. Depending on the arrangement of the last-layer pieces, there are 57 possible OLL cases, each with its own algorithm. Experienced solvers learn to recognize these patterns and apply the corresponding sequence of moves in a matter of just a couple of seconds.
+
+INSERT HERE PICTURE OF PLL
+
+Once all last-layer pieces are correctly oriented, the solver proceeds to **Permutation of the Last Layer (PLL)**. During this step, the pieces are already facing the correct direction, but many of them remain in the wrong locations. The objective of PLL is to **move the pieces into their correct positions without changing their orientation**. There are 21 possible PLL cases, each solved by a different algorithm. After applying the appropriate PLL algorithm, the cube becomes **completely solved**.
+
+What makes OLL and PLL particularly interesting for this project is that the algorithms used are carefully designed permutations of cube pieces. Rather than moving every cubie randomly, these algorithms affect only specific regions of the cube while preserving most of the cube that has already been solved. ThHence, the algorithms can be analyzed as permutations of individual cube pieces.
+
+Below is the link to a motivaional video that inspired and guided the development of this project. The video explores the mathematical ideas behind Rubik's Cube algorithms and explains how solving methods are connected to concepts such as permutations, commutators, and group theory.
 
 https://youtu.be/_Zv3YcQeNVI
 
-By connecting abstract mathematical concepts with a real-world puzzle, this project demonstrates how mathematics can be used to model, analyze, and understand complex systems in an intuitive and engaging way.
+Rather than presenting algorithms as sequences of moves to be memorized, the video investigates why certain algorithms work and how they manipulate specific cube pieces while leaving others unchanged. It introduces the concept of commutators, which is a fundamental tool which will be used in the analysis of algorithms, and discusses the challenges of understanding increasingly complex algorithms due to the enormous number of possible cube configurations.
+
+This resource is particularly helpful because it bridges the gap between practical cube solving and the mathematical structures that govern it. It provides an accessible introduction to the ideas that are developed more rigorously in the technical section of this repository, helping readers understand how abstract mathematical concepts can be applied to analyze and solve a real-world puzzle.
+
+-----------------------------------------------------------------------------------------
