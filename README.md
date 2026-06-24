@@ -47,7 +47,7 @@ The following video presents the initial proposal for this project, _The Math Be
 
 This video provides the foundation for the more detailed analysis presented in the **Hands-on** section of the repository. It is intended to help viewers understand the problem being investigated, the mathematical framework that will be used, and the questions that guide the development of the project, including how algorithms affect cube pieces and why certain cube configurations are impossible to obtain through legal moves.
 
-INSERT VIDEO HERE
+https://youtu.be/mN8gmh6tW7c
 
 -----------------------------------------------------------------------------------------
 
