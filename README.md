@@ -54,7 +54,7 @@ https://youtu.be/mN8gmh6tW7c
 
 ## TECHNICALITIES OF THE PROJECT
 
-MOTIVATION
+### MOTIVATION
 
 A standard 3×3 Rubik's Cube has approximately (4.3\times10^{19}) possible configurations, meaning that there are more than 43 quintillion ways to arrange its pieces. Despite this enormous complexity, every **legal move** follows precise mathematical rules.
 
@@ -62,7 +62,7 @@ A standard 3×3 Rubik's Cube has approximately (4.3\times10^{19}) possible confi
 
 Each face rotation rearranges the cube's pieces and since these rearrangements correspond to permutations of the cube pieces, the Rubik's Cube can be studied using permutations and group theory. In this repository, the focus is set particularly on the last-layer solving stages known as **OLL (Orientation of the Last Layer)** and **PLL (Permutation of the Last Layer)** which we had already mentioned.
 
-RUBIK'S CUBE NOTATION
+### RUBIK'S CUBE NOTATION
 
 Before constructing a mathematical model, it is necessary to establish a notation for describing cube movements.
 
@@ -104,19 +104,19 @@ INSERT GIF OF R2
 
 These symbols allow move sequences, commonly called algorithms, to be written in a more standardized way.
 
-IDENTIFYING CUBE PIECES
+### IDENTIFYING CUBE PIECES
 
-PERMUTATIONS
+### PERMUTATIONS
 
-GROUPS
+### GROUPS
 
-THE COMMUTATOR
+### THE COMMUTATOR
 
-APPLICATION TO OLL AND PLL
+### APPLICATION TO OLL AND PLL
 
-WHY GROUP THEORY IS NECESSARY
+### WHY GROUP THEORY IS NECESSARY
 
-ALTERNATIVE APPROACHES
+### ALTERNATIVE APPROACHES
 
 
 -----------------------------------------------------------------------------------------
