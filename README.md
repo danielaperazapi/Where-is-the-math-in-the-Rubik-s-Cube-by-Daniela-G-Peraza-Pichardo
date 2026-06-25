@@ -76,9 +76,13 @@ B (Back)
 R (Right)
 L (Left)**
 
+*INSERT PICTURE OF CUBE NOTATION
+
 A letter by itself represents a **90-degree clockwise rotation** of that face. For example:
 
 [R]
+
+*INSERT GIF OF R
 
 denotes a clockwise turn of the right face.
 
@@ -86,9 +90,13 @@ A prime symbol indicates a **90-degree counterclockwise rotation**:
 
 [R']
 
+*INSERT GIF OF R'
+
 A number 2 indicates a **180-degree rotation**:
 
 [R2]
+
+INSERT GIF OF R2
 
 These symbols allow move sequences, commonly called algorithms, to be written in a more standardized way.
 
