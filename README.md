@@ -126,15 +126,11 @@ UFR, UFL, UBR, UBL, ...
 
 ### PERMUTATIONS
 
-A permutation is a rearrangement of objects. For example, if we have four objects:
+A permutation is a rearrangement of objects. As an example:
 
-(1,2,3,4)
+(1 2 3)
 
-and rearrange them to
-
-(2,3,4,1)
-
-we obtain a permutation.
+1→2,  2→3,  3→1
 
 Every move of the Rubik's Cube can be viewed as a permutation because it rearranges the positions of cubies.
 
@@ -144,19 +140,23 @@ For example, a U move rotates the top layer and cycles the four upper corners:
 
 This means:
 
-**UFR moves to UBR
+**UFR moves to UBR**
 
-UBR moves to UBL
+**UBR moves to UBL**
 
-UBL moves to UFL
+**UBL moves to UFL**
 
-UFL moves to UFR**
+**UFL moves to UFR**
 
 Similarly, the upper edges are permuted according to:
 
 (UF UR UB UL)
 
-Cycle notation therefore provides a precise description of how cube pieces move.
+Therefore, the complete permutation produced by U is
+
+U = (UFR UBR UBL UFL)(UF UR UB UL)
+
+Cycle notation therefore provides a precise description of how cube pieces move. 
 
 ### GROUPS
 
