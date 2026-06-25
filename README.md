@@ -70,10 +70,15 @@ Before constructing a mathematical model, it is necessary to establish a notatio
 Supposing the cube is facing an arbitrary direction, with one face facing toward us, the six faces of the cube are denoted by the letters:
 
 **U (Up)**
+
 **D (Down)**
+
 **F (Front)**
+
 **B (Back)**
+
 **R (Right)**
+
 **L (Left)**
 
 *INSERT PICTURE OF CUBE NOTATION
