@@ -261,7 +261,21 @@ We choose an arbitrary algorithm from the extense list of OLL (https://www.jperm
 
 _R U R' U R U2 R'_
 
+We define the permutation for each move first:
 
+_R = (UFR DFR DBR UBR)(UR FR DR BR)_
+
+_U = (UFR UBR UBL UFL)(UF UR UB UL)_
+
+_R′ = (UFR UBR DBR DFR)(UR BR DR FR)_
+
+_U2 = (UFR UBL)(UBR UFL)(UF UB)(UR UL)_
+
+We track the positions, which results in:
+
+_R U R' U R U2 R'_ = _(UFR UBR UFL)(UF UR UB)_
+
+This algorithm preserves most of the cube, cycles only a small set of top-layer pieces, changes the orientation of specific corners, and leaves edge orientations unchanged.
 
 ### WHY GROUP THEORY IS NECESSARY
 
