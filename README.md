@@ -56,7 +56,7 @@ https://youtu.be/mN8gmh6tW7c
 
 ### MOTIVATION
 
-A standard 3×3 Rubik's Cube has approximately $4.3 \times 10^{19}$ possible configurations, meaning that there are more than 43 quintillion ways to arrange its pieces. Despite this enormous complexity, every **legal move** follows precise mathematical rules.
+A standard 3×3 Rubik's Cube has approximately 4.3 * 10**19 possible configurations, meaning that there are more than 43 quintillion ways to arrange its pieces. Despite this enormous complexity, every **legal move** follows precise mathematical rules.
 
 ![](rubiks-cube-line.jpg)
 
