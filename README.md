@@ -100,7 +100,7 @@ Center pieces have one visible sticker and are identified by a single letter.
 
 Examples:
 
-U, D, F, B, R, L
+_U, D, F, B, R, L_
 
 ![](CENTERPIECES.png)
 
@@ -110,7 +110,7 @@ Edge pieces have two stickers and are identified by two letters.
 
 Examples:
 
-UF, UB, UL, UR, ...
+_UF, UB, UL, UR, ..._
 
 ![](EDGEPIECES.png)
 
@@ -120,7 +120,7 @@ Corner pieces have three stickers and are identified by three letters.
 
 Examples:
 
-UFR, UFL, UBR, UBL, ...
+_UFR, UFL, UBR, UBL, ..._
 
 ![](CORNERPIECES.png)
 
@@ -134,7 +134,7 @@ A permutation is a rearrangement of objects. As an example:
 
 Every move of the Rubik's Cube can be viewed as a permutation because it rearranges the positions of **corner and edge** cubies. Center cubies never move from their place, they only rotate, hence they will be omitted in the permutations. For example, a U move rotates the top layer and cycles the four upper corners:
 
-(UFR UBR UBL UFL)
+_(UFR UBR UBL UFL)_
 
 This means:
 
@@ -148,11 +148,11 @@ This means:
 
 Similarly, the upper edges are permuted according to:
 
-(UF UR UB UL)
+_(UF UR UB UL)_
 
 Therefore, the complete permutation produced by U is
 
-U = (UFR UBR UBL UFL)(UF UR UB UL)
+_U = (UFR UBR UBL UFL)(UF UR UB UL)_
 
 Cycle notation therefore provides a precise description of how cube pieces move. 
 
@@ -253,7 +253,7 @@ In **OLL (Orientation of the Last Layer)**, the goal is to orient all last-layer
 
 In **PLL (Permutation of the Last Layer)**, the pieces are already correctly oriented, but must be moved into their correct locations.
 
-Many OLL and PLL algorithms can be analyzed using permutations and commutators. Rather than affecting the entire cube, these algorithms are carefully designed to move only specific corners or edges while preserving solved sections.
+Many OLL and PLL algorithms can be analyzed using permutations and commutators. Rather than affecting the entire cube, these algorithms are carefully designed to **move only specific corners or edges while preserving most part of sections that have already been solved**, such as the cross which remains completely unaffected or three-fourths of the F2L stage (commutators allowed localized changes).
 
 From a mathematical perspective, each OLL or PLL algorithm corresponds to a particular permutation in the Rubik's Cube group.
 
